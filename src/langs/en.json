@@ -1,0 +1,51 @@
+{
+    "home":{
+        "titleMsg": "NewApp",
+        "menu":"Menu",
+        "clients":"List of clients",
+        "logIn":"Log In",
+        "userName":"Name:",
+        "surName":"Surname"
+    },
+    "leftPanel":{
+        "panelTitle":"Left Panel",
+        "panelContent":"Left panel content goes here",
+        "someNotes":"Some Notes",
+        "inputNote":"Enter somthing",
+        "deletButton":"DELETE",
+        "addButton":"ADD NOTE",
+        "counter":"Counter",
+        "price":"Price:",
+        "totalPrice":"Total Price:"
+    },
+    "rightPanel":{
+        "rightPanelTi":"Right Panel",
+        "tabsP":"Tabs Page",
+        "aboutP":"About"
+    },
+    "login":{
+        "loginTitle":"Login",
+        "userN":"Username",
+        "userP":"Password",
+        "signIn":"Sign In",
+        "signText":"Click Sign In to close Login Screen"
+    },
+    "about":{
+        "aboutTit":"About",
+        "aboutPage":"About My App",
+        "aboutP1":"Here is About page!",
+        "aboutP2":"You can go {action}.",
+        "actionBack":"back",
+        "aboutP3":"Mauris posuere sit amet metus id venenatis. Ut ante dolor, tempor nec commodo rutrum, varius at sem. Nullam ac nisi non neque ornare pretium. Nulla mauris mauris, consequat et elementum sit amet, egestas sed orci. In hac habitasse platea dictumst.",
+        "aboutP4":"Mauris posuere sit amet metus id venenatis. Ut ante dolor, tempor nec commodo rutrum, varius at sem. Nullam ac nisi non neque ornare pretium. Nulla mauris mauris, consequat et elementum sit amet, egestas sed orci. In hac habitasse platea dictumst."
+    },
+    "tabs":{
+        "tabTitle":"Animated Tabs",
+        "tabContent": "Tab 1 content",
+        "tabContent2": "Tab 2 content",
+        "tabContent3": "Tab 3 content",
+        "tabText1":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus? Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti.",
+        "tabText2":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus? Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti.",
+        "tabText3":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo suscipit temporibus sequi iure ad laboriosam accusamus? Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur deleniti."
+}
+}
