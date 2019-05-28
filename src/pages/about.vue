@@ -16,6 +16,15 @@
 
     <f7-block-title>Posts</f7-block-title>
     <f7-block strong>
+        <f7-row>
+            <f7-col>
+            </f7-col>
+          <f7-col>
+     <f7-button fill @click.once="showPosts">Show posts</f7-button>
+         </f7-col>
+         <f7-col>
+         </f7-col>
+        </f7-row>
        <div class="post" v-for="post in posts" :key="post.id">
            <h3>Title: {{post.title}}</h3>
            <p>Description: {{post.body}}</p>
@@ -34,7 +43,8 @@ export default {
             posts:[]
         }
     },
-    mounted(){
+    methods:{
+        showPosts(){
         var self = this;
         axios.get('https://jsonplaceholder.typicode.com/posts').then( function(res){
             self.posts = res.data;
@@ -43,6 +53,17 @@ export default {
         .catch( function(error){
             console.log('Error: ',error);
         })
+    }
+    },
+    mounted(){
+        // var self = this;
+        // axios.get('https://jsonplaceholder.typicode.com/posts').then( function(res){
+        //     self.posts = res.data;
+        //     console.log('Data: ',res.data);
+        // })
+        // .catch( function(error){
+        //     console.log('Error: ',error);
+        // })
     }
 }
 </script>
